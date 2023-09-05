@@ -1,52 +1,68 @@
 body {
     background-color: #000;
-}
-
-.navbar {
-    margin-bottom: 40px;
-}
-
-.card {
-    margin-bottom: 40px;
-    background-color: #292929;
-    color: #fff;
-}
-
-.line {
-    line-height: 1;
+    /* Fundo preto */
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#changeColorButton {
+    margin-left: 1075px;
+    background-color: #48c78e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo de hover para o botão */
+  #changeColorButton:hover {
+    background-color: #028e4f; /* Nova cor de fundo quando hover */
+  }
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.line {
+    line-height: 1.6;
+}
+
 .cor {
-    color: rgb(245, 149, 149)
+    color: #f59595;
 }
 
 strong {
-    color: rgb(233, 147, 147);
-    text-decoration: underline;
+    color: #e99393;
 }
 
 .fa-linkedin {
-    color: rgba(65, 93, 250, 0.5);
+    color: #415dfa;
     font-size: 25px;
+    margin-right: 5px;
 }
 
 .textD {
-    text-decoration-color: none;
-    text-decoration: none;
     color: #fff;
     font-size: 21px;
-    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .fa-github-square {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 25px;
     margin-top: 7px;
+    margin-left: 5px;
 }
 
 .subtitulo1 {
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .fa-hornbill {
